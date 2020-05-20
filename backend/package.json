@@ -1,0 +1,46 @@
+{
+  "name": "kursovaya_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node",
+    "prepublishOnly": "npm run build",
+    "dev": "nodemon dist/main.js",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kursovaya"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.9.11",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "express-session": "^1.17.1",
+    "nodemon": "^2.0.3",
+    "nodemon-webpack-plugin": "^4.3.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
